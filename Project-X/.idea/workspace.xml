@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="771e15e2-1247-4a66-9bec-6a59eb78a9a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project-x/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/client/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/app/controllers/BasicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/app/controllers/TasksController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/app/entities/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/app/entities/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/app/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/app/services/TasksInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/app/services/TasksService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/app/services/UsersInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/app/services/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/app/tables/TASKS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/annotations/JSONBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/annotations/JSONLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/annotations/NoSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/common/FrameworkConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/config/DispatcherInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/config/EntityArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/config/FilterInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/config/JdbcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/config/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/dao/CreateOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/dao/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/dao/DAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/dao/DynamicRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/dao/IDGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/dao/InsertOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/dao/UpdateOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/exception/ExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/response/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/response/FrameworkResponses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/response/JSONResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/response/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/utils/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/utils/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/utils/EntityMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/utils/EntityMappingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/utils/GsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/utils/ThreadLocalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/java/com/zoho/projectx/internals/utils/UserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-x/src/server/resources/app.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-561266428">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project-x" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project-X" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-X" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-X" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-X" type="462c0819:PsiDirectoryNode" />
+              <item name="project-x" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project-X" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-X" type="462c0819:PsiDirectoryNode" />
+              <item name="project-x" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="771e15e2-1247-4a66-9bec-6a59eb78a9a0" name="Default Changelist" comment="" />
+      <created>1551511794796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551511794796</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" anchor="right" id="Maven Projects" visible="true" weight="0.32985258" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
